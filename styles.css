@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman', serif; /* Set default font */
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Times New Roman', serif; /* Ensure h1 uses Times New Roman */
+}
+
+form {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Times New Roman', serif; /* Ensure label uses Times New Roman */
+}
+
+input[type="file"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Times New Roman', serif; /* Use Times New Roman */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', serif; /* Use Times New Roman */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.output {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Times New Roman', serif; /* Use Times New Roman */
+    font-size: 16px;
+    color: #2d2d2d;
+    font-weight: bold; /* Makes the text bold */
+    line-height: 1.5;
+}
+
+.output-text {
+    font-family: 'Times New Roman', serif;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-weight: bold; /* Makes the text bold */
+}
+
+.output-meta {
+    font-family: 'Times New Roman', serif; /* Use Times New Roman */
+    font-size: 14px;
+    color: #333;
+}
